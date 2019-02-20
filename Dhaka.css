@@ -1,0 +1,35 @@
+#Dhaka {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    height: 100%;
+}
+
+#Dhaka td, #Dhaka th {
+  border: 1px solid #ddd;
+  padding: 8px;
+    text-align: center;
+}
+
+#Dhaka tr:nth-child(even){background-color: #f2f2f2;}
+
+#Dhaka tr:hover {background-color: #ddd;}
+
+#Dhaka th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center
+}
+
+#Dhaka tr a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center
+}
+
