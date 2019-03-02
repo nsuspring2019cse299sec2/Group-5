@@ -21,7 +21,19 @@
   text-align: left;
   background-color: #4CAF50;
   color: white;
-  text-align: center
+  text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 25px;
+}
 
+a:active{
+    color: crimson;
+}
+
+a:hover{
+    color: coral;
+}
