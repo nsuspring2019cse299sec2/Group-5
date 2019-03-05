@@ -10,6 +10,14 @@ input[type=text], input[type=password] {
   border: none;
   background: #f1f1f1;
 }
+.header{
+    text-align: center;
+color: coral;
+}
+.pr{
+    text-align: center;
+    color: royalblue;
+}
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
@@ -17,8 +25,8 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 #box{
-    height: 500px;
-    width: 400px;
+    height: 1250px;
+    width: 600px;
     background: #dcdde1;
     border: 3px solid black;
     border-radius: 25px;

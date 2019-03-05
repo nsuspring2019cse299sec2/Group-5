@@ -13,7 +13,7 @@
       <a href="#">About</a>
       <a href="#">Gallery</a>
       <a href="public%20signup.html">Sign Up</a>
-      <a href="public.html">Login</a>
+      <a href="public%20login.html">Login</a>
    </div>
    
    

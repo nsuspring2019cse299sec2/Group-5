@@ -7,10 +7,10 @@
 </head>
 <body>
  <div id="box">
-     <form action="connectdoctor.php" style="border:1px solid #ccc" method="post">
+     <form action="connectdoctor.php" #ccc" method="post">
   <div class="container">
-    <h1>Sign Up</h1>
-    <p>Please fill in this form to create an account.</p>
+    <h1 class="header">Sign Up</h1>
+    <p class="pr">Please fill in this form to create an account.</p>
     <hr>
 
     <label for="name"><b>Name</b></label>
@@ -25,7 +25,11 @@
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
     
     <label for="area"><b>Area</b></label>  
-    <input type="text" placeholder="Enter Area name" name="area" required>
+    <input type="text" placeholder="Enter Area name" name="area" required> </br> </br>
+    Gender:
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="other">Other </br> </br>
     
     <label for="hospital"><b>Hospital Name</b></label>
     <input type="text" placeholder="Enter Hospital Name" name="hospital name" required>

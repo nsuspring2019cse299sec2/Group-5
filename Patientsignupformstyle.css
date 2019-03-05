@@ -21,6 +21,23 @@ hr {
   margin-bottom: 25px;
 }
 
+.header{
+    text-align: center;
+color: coral;
+}
+.pr{
+    text-align: center;
+    color: royalblue;
+}
+
+#box{
+    height: 600px;
+    width: 600px;
+    background: #dcdde1;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+}
 /* Set a style for all buttons */
 button {
   background-color: #4CAF50;
