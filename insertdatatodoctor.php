@@ -24,7 +24,7 @@ if($_POST['submit'])
 
     if($name!="" && $email!="" && $password!="" && $repeat password!="" && $area!="" && $gender!="" && $hospitalname!="" && $deptname!="" && $contact!="" && $officehours!="" && $payment!="" &&) 
     {
-        $sql ="insert into doctor values('$name','$email','$password','$repeat password','$area','$gender','$hospitalname',' $deptname','$contact','$officehours',' $payment')";
+        $sql ="insert into patient values('$name','$email','$password','$repeat password','$area','$gender','$hospitalname',' $deptname','$contact','$officehours',' $payment')";
         
         $res=mysqli_query($conn,$sql);
         
