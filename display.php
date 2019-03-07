@@ -42,7 +42,7 @@ if(!$conn){
 	<td><?php echo  $pasword ;?> </td>
 	<td><?php echo  $repeatpassword ;?> </td>
 	<td><?php echo  $area ;?> </td>
-	<td><?php echo  $gender ; ?> </td>
+	<td><?php echo  $gdsender ; ?> </td>
 	<td><?php echo  $contact ; ?> </td>
 	
 	</tr>
