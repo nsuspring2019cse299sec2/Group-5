@@ -41,7 +41,7 @@
       payment:
       <input type="text" name="payment"> 
       
-      <input type="submit" name="submit">
+      <input type="submit" name= "submit">
       
        
        
