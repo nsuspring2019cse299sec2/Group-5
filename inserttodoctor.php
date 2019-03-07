@@ -17,6 +17,7 @@ if($_GET['submit'])
     $pasword=$_GET['pasword'];
     $repeatpassword=$_GET['repeatpassword'];
     $area=$_GET['area'];
+    
     $gender=$_GET['gender'];
     $hospital_name=$_GET['hospital_name'];
     $department_name=$_GET['department_name'];
