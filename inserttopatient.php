@@ -34,6 +34,7 @@ if($_GET['submit'])
         else
         {
             echo "not inserted";
+            echo ""
         }
     }
 }
