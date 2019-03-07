@@ -25,7 +25,9 @@
 <input type="radio" name="gender" value="other">Other <br>
       
       contact:
-      <input type="text" name="contact">   
+      <input type="tel" name="contact">
+      
+            
       <input type="submit" name="submit">
        
        

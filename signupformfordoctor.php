@@ -33,7 +33,7 @@
      
       
       contact:
-      <input type="text" name="contact">   
+      <input type="tel" name="contact">   
       
       
       office_hours:
@@ -42,6 +42,7 @@
       <input type="text" name="payment"> 
       
       <input type="submit" name="submit">
+      
        
        
        

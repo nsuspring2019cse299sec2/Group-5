@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $pasword = "";
-$dbname="find_doctorr";
+$dbname="find_doctor";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,$dbname);
