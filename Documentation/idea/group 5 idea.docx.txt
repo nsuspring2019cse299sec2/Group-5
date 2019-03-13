@@ -1,0 +1,45 @@
+                                                                             PROJECT PROPOSAL
+ 
+
+
+Project Title:   Find Your Doctor 
+
+Project Members: 1. Mahedi Hassan Pranto - 1610268042
+                 2. Md. Muktadir Hossain - 1610597042
+                 3. Shariar Mahmud Duke  - 1611260042
+
+
+Project Idea: In this project we want to make a platform for both doctors and patients. 
+
+Problem:      Most of the times in our country we have to face a problem finding doctor like we need a doctor but we don't have any idea about that deartments doctors who are 
+              beside us but we don't know and also the details about that doctor. bassically we go to a doctor without having any idea of that doctor. 
+
+Benefits:     This project will help people to find doctors near them of a specific department. They won't have to go far away to have an appointment of a doctor. If his or
+              her desired docotrs are nearby then that doctors will be visible through the website. Also people will have a proper knowledge about doctor before visiting 
+              that doctor. People will get an appointment serial no automatically by website. Their prescription paper will be in website so there will be no chance to lost
+              that. Also people will have an oppertunities to comment about the doctor. people wil be able to send the lab reports to doctor and get results through website,
+              so they wont have to go physically to doctor for the report consultation. 
+
+Description:  In our website there will be a sign up form for both doctors and patients to have the members of our website. after signing up the whole information will be 
+              saved to our database. there will also login form for both patients and doctors. After login there will be different home pages for patients and doctors. In 
+              patient home page there will be a option named "Area". After clicking that option patients will be able to see that area which doctors are registered in the 
+              website. Then which area patient lives in he or she can find that area in the list of area, if he or she finds his desirable area then he can click that area. 
+              By clicking that area he or she will be redirected to the page of registered doctors where he will find every doctors of that specific area. in this page there 
+              will be an option named "Departments" which is for the doctors of specific departments. It will help people to sort doctors among huge number of docotrs and also 
+              people will be helpful to have the doctors list which they needed. Every list item will redirect patients to the details of doctors which will mostly help them
+              choosing doctor among a huge ammount of doctors and having proper knowledge before meeting the doctor. After choosing the doctor patients will get a button named
+              "Get Appointment" in doctors information page. After clicking that button patients will get a basic information form to ensure the appointment and for the doctor
+              acknowledgement. After filling up the appointment form, patients will find a button named "Submit". After submitting the form the appointment will be confirmed 
+              by giving a serial no to the patients. There will be a option to edit personal information of patients. In doctors home there will be an option named 
+              "Patient information" in which doctors will be able to see a list of pateints who visited them previously. in every patients nformation page there will be an 
+              option for giving prescription and other opininons. In this project every form will be in "POST" method. 
+
+              As we have not enough time that's why we will now work only with Dhaka zone. but this project is for whole bangladesh so that every people get the 
+              benefits of this project. 
+
+
+Business Idea: We have a further plan to make a business with this project. when this project will be able to include a huge ammount of doctors all over Bangladesh then we
+               will make a deal with 'BKASH', 'ROCKET' etc. to add a payment method by which patients will be able to payment the fees of doctors. Also we have a plan to 
+               add a feature in this project to parcel medicines to patients house which is prescribed by doctors and for this we will deal with the leading pharmaceutical
+               companies in bangladesh. but this feature will be included later. 
+
