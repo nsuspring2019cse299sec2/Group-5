@@ -18,6 +18,7 @@ if(isset($_POST['submit']))
     if($count==1)
     {
         echo "Login success";
+        header("location:PatientHomePage.php");
     }
     else
     {
