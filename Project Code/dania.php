@@ -1,4 +1,17 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 $conn = mysqli_connect("localhost","root","","find_doctor");
 if(!$conn){
@@ -8,8 +21,8 @@ if(!$conn){
 
 <html>
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>print data </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .btn {
   background-color: #2196F3;
@@ -50,21 +63,21 @@ if(!$conn){
   background-color: #0b7dda;
 }
 </style>
-
 </head>
 <body>
 
 
 
- <button class="btn">Button</button>
+
+<button class="btn">Department</button>
 <div class="dropdown">
   <button class="btn" style="border-left:1px solid #0d8bf2">
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-    <a href="#">Cardiology</a>
-    <a href="#">Neurology</a>
-    <a href="#">Nefrology</a>
+    <a href="dania.cardiology.php">Cardiology</a>
+    <a href="dania.neurology.php">Neurology</a>
+    <a href="dania.nefrology.php">Nefrology</a>
   </div>
 </div>
 
@@ -72,7 +85,23 @@ if(!$conn){
 
 
 
-<table width="600" border="2" align="center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="1500" height="500" border="2" align="center">
 
 	<tr>
 	<td>name </td>
@@ -85,11 +114,14 @@ if(!$conn){
 	<td> contact no </td>
 	<td> office_hours </td>
 	<td> payment </td>
+	<td> Get appointment </td>
 	</tr>
 	<?php
-	$sql="select * from doctor_view where area='bashundhara' ";
+	$sql="select * from doctor_view where area='dania' ";
 	$result= mysqli_query($conn,$sql);
 	while($row = mysqli_fetch_array($result)){
+        
+        
 		$name= $row['name'];
 		$email = $row['email'];
 		
@@ -100,7 +132,8 @@ if(!$conn){
 		$contact = $row['contact'];
 		$office_hours = $row['office_hours'];
 		$payment = $row['payment'];
-		
+        
+       
 	?>
 
 	<tr>
@@ -111,14 +144,14 @@ if(!$conn){
 	<td><?php echo  $gender ; ?> </td>
 	<td><?php echo  $hospital_name ; ?> </td>
 	<td><?php echo  $department_name ; ?> </td>
-	<td><?php echo  $contact ; ?> </td>
+	<td><?php echo  $contact; ?> </td>
 	<td><?php echo  $office_hours ; ?> </td>
 	<td><?php echo  $payment ; ?> </td>
+	
 	</tr>
 <?php 
 	}
 ?>
 </table>
-
 </body>
 </html>
